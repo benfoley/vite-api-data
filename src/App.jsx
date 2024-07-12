@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   
   // data will be stored in state
-  const [data, setData] = useState({})
+  const [data, setData] = useState(null)
 
   useEffect(() => {
     // async fetch
